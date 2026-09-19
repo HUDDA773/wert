@@ -1,0 +1,122 @@
+/* ОБЩИЕ НАСТРОЙКИ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* ШАПКА */
+.header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav a {
+    color: rgb(143, 120, 120);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+.nav a:hover {
+    background-color: #14b92f;
+    border-radius: 5px;
+}
+
+/* СЕКЦИИ */
+.section {
+    min-height: 600px;
+    padding: 120px 20px 60px 20px;
+    border-bottom: 3px solid #ff0000;
+}
+
+.section:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.section:nth-child(even) {
+    background-color: #fdfcfc;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #000000;
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.content-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #cec5c5;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.content-box p  {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #464646;
+}
+
+.content-box strong  {
+    color: #474646;
+    font-size: 20px;
+}
+
+/* ПОДВАЛ */
+.footer {
+    background-color: #363636;
+    color: rgb(248, 247, 247);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-block {
+    min-width: 200px;
+}
+
+.footer-block h3 {
+    color: #ffff00;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #ffe100;
+    padding-bottom: 5px;
+}
+
+.footer-block p {
+    margin-bottom: 10px;
+    color: #ccc;
+}
